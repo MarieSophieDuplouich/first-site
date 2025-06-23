@@ -1,0 +1,33 @@
+.pixel {
+    width: 40px;
+    height: 40px;
+    background-color: #ea5539; 
+box-shadow: 40px 40px #efb116, 80px 80px #efb116;
+}
+
+
+
+@keyframes fireball {
+  0%,
+  25% {
+    box-shadow: 4px 4px 6px #efb116;
+  }
+  25.01%,
+  50% {
+    box-shadow: 40px 40px #efb116;
+  }
+  50.01%,
+  75% {
+    box-shadow: 40px 40px #efb116, 80px 80px #efb116;
+  }
+  75.01%,
+  100% {
+    box-shadow: 40px 40px #efb116, 80px 80px #efb116, 90px 90px #efb116;
+  }
+}
+
+.flèche{
+    display: flex;
+    justify-content: right;
+    
+}
