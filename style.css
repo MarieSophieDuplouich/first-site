@@ -1,3 +1,13 @@
+body{
+
+      font-family: monospace;
+       background-color: #000;
+      color: #0f0 !important;
+      white-space: pre;
+      margin : 0;
+}
+
+
 .pixel {
     width: 40px;
     height: 40px;
@@ -31,3 +41,13 @@ box-shadow: 40px 40px #efb116, 80px 80px #efb116;
     justify-content: right;
     
 }
+
+ascii-art {
+     
+      
+      padding: 20px;
+      border-radius: 8px;
+      
+    }
+
+
